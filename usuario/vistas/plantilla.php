@@ -162,6 +162,7 @@ session_start();
 
         if($_GET["ruta"]== "inicio" ||
            $_GET["ruta"]== "comercio" ||
+           $_GET["ruta"]== "misdatos" ||
            $_GET["ruta"]== "slide" ||
            $_GET["ruta"]== "categorias" ||
            $_GET["ruta"]== "subcategorias" ||

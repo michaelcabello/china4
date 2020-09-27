@@ -29,7 +29,7 @@ class ControladorUsuarios{
 								   "email"=> $_POST["regEmail"],
 								   "foto"=>"",
 								   "modo"=> "directo",
-								   "verificacion"=> 1,
+								   "verificacion"=> 0,
 								   "estado"=> 1,
 								   "emailEncriptado"=>$encriptarEmail);
 
@@ -243,6 +243,7 @@ class ControladorUsuarios{
 								$_SESSION["validarSesionUsuario"] = "okchina";
 								$_SESSION["id"] = $respuesta["id"];
 								$_SESSION["nombre"] = $respuesta["nomap"];
+								$_SESSION["telefono"] = $respuesta["telefono"];
 								$_SESSION["foto"] = $respuesta["foto"];
 								$_SESSION["email"] = $respuesta["email"];
 								$_SESSION["password"] = $respuesta["password"];
