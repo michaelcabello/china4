@@ -1,0 +1,5 @@
+[12-Sep-2020 00:57:21 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method ControladorUsuarios::ctrMostrarUsuarios() in /home4/maxibigsoto/public_html/usuario/ajax/tablaUsuarios.ajax.php:18
+Stack trace:
+#0 /home4/maxibigsoto/public_html/usuario/ajax/tablaUsuarios.ajax.php(116): TablaUsuarios->mostrarTabla()
+#1 {main}
+  thrown in /home4/maxibigsoto/public_html/usuario/ajax/tablaUsuarios.ajax.php on line 18
